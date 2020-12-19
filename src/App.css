@@ -1,16 +1,39 @@
+.navbar-brand-name {
+  text-align: center;
+  margin: 20px;
+  width: 100%;
+  height: 100%;
+}
+.navbar-collapsed-brand-name {
+  margin: 0 15px;
+  font-weight: 600;
+}
+.navbar {
+  text-align: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+#navbarA a {
+  cursor: pointer;
+}
+
+#navbarA li {
+  display: flex;
+  padding-left: 15px;
+}
+
+#navbar-dot {
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 0px;
+  color: #dedede;
+}
+
 .landing-grid {
   text-align: center;
   width: 100%;
   height: 100%;
-}
-
-.navbar {
-  text-align: center;
-  width: 100%;
-}
-
-.navbar-pages {
-  display: inline;
 }
 
 .App {

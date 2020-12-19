@@ -9,12 +9,8 @@ class Landing extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <div className="landing-grid">
-                            <h1 class="d-none d-lg-block d-xl-block">3ylaa Illustration</h1>
-                        </div>
-
-                        <Navbar/>
-
+                        <br/><br/>
+                        <h1>Landing page - Portfolio</h1>
                         <div className="social-links">
                             {/* LinkedIn */}
                             <a href="http://google.com" rel="noopener noreferrer" target="_blank">
