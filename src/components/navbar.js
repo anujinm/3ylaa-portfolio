@@ -50,7 +50,7 @@ class Navbar extends Component {
                 <div className="navbar-brand-name">
                     <h1 class="d-none d-lg-block d-xl-block">3ylaa Illustration</h1>
                 </div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light">
                     <div className="navbar-collapsed-brand-name">
                         <a class="navbar-brand d-block d-lg-none d-xl-none" href="#">3ylaa Illustration</a>
                     </div>
@@ -69,10 +69,42 @@ class Navbar extends Component {
                                     onClick={() => this.handleClick(i)}
                                     />
                                 )}
+                                <div class="d-block d-lg-none d-xl-none">
+                                    <div className="navbar-social-links">
+                                        <a href="https://www.instagram.com/3ylaa_illustration/" rel="noopener noreferrer" target="_blank">
+                                            <i className="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://www.facebook.com/3ylaa" rel="noopener noreferrer" target="_blank">
+                                            <i className="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://dribbble.com/3ylaa" rel="noopener noreferrer" target="_blank">
+                                            <i className="fa fa-dribbble fa-lg" aria-hidden="true" />
+                                        </a>
+                                        <a href="https://www.behance.net/3ylaa?fbclid=IwAR2vTlgzy7dl0q8N3l9-XbEiwDW6rt3vN8TX8TB5UjpekziRao8ZzQAJOPw" rel="noopener noreferrer" target="_blank">
+                                            <i className="fa fa-behance-square fa-lg" aria-hidden="true" />
+                                        </a>
+                                    </div>
+                                </div>
                             </ul>
                         </div>
                     </div>
-                </nav>
+                 </nav>
+                 <div className="navbar-social-links navbar-social-links-bar">
+                    <div class="d-none d-lg-block d-xl-block">
+                        <a href="https://www.instagram.com/3ylaa_illustration/" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.facebook.com/3ylaa" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://dribbble.com/3ylaa" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-dribbble fa-lg" aria-hidden="true" />
+                        </a>
+                        <a href="https://www.behance.net/3ylaa?fbclid=IwAR2vTlgzy7dl0q8N3l9-XbEiwDW6rt3vN8TX8TB5UjpekziRao8ZzQAJOPw" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-behance-square fa-lg" aria-hidden="true" />
+                        </a>
+                    </div>
+                </div>
             </div>
         )
     }

@@ -1,3 +1,10 @@
+.navbar {
+  text-align: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .navbar-brand-name {
   text-align: center;
   margin: 20px;
@@ -8,12 +15,7 @@
   margin: 0 15px;
   font-weight: 600;
 }
-.navbar {
-  text-align: center;
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-}
+
 #navbarA a {
   cursor: pointer;
 }
@@ -28,6 +30,24 @@
   padding-left: 10px;
   padding-right: 0px;
   color: #dedede;
+}
+.navbar-social-links {
+  display: flex;
+  margin-left: 15px;
+}
+.navbar-social-links-bar {
+  justify-content: center;
+  margin: 20px;
+  width: 100%;
+}
+
+.navbar-social-links a {
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-social-links a:hover {
+  color:rgba(0, 0, 0, 0.9); 
 }
 
 .landing-grid {
